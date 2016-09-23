@@ -12,15 +12,13 @@ component output="false" {
 		"/app": variables.fsRoot,
 		"/lib": variables.fsRoot & "/lib"
 	};
-	/*
 	this.javaSettings = {
-		LoadPaths: ["C:\Program Files\Java\jdk1.8.0_101\lib\"],
+		LoadPaths: ["#variables.fsRoot#/lib/java_websocket.jar"],
 		loadCFMLClassPath: true, 
 		reloadOnChange: true,
 		watchInterval: 2, 
 		watchExtensions: "jar,class,xml"
 	};
-	*/
 	this.tag = {
 		dump: {
 			format: "classic"

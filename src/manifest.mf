@@ -1,0 +1,2 @@
+Class-Path: ../lib/java_websocket.jar
+Main-Class: com.bonnydoonmedia.io.WSClient
